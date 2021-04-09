@@ -113,7 +113,7 @@ fclose($file);
 }
 
 // https://geocode-maps.yandex.ru/1.x/?apikey=d2dc6cdf-66ab-406e-ae7a-569ae601dcd9&geocode=37.571541,54.148221
-echo "<h1>GSM/GPS TRACKER ХУЕКЕР</h1>";
+echo "<h1>GSM/GPS TRACKER</h1>";
 ?>
 [ <a href=track.php?delete_all onClick="return confirm('Вы уверены? Все координаты будут удалены')">Очистить базу</a>
 <?php
