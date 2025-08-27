@@ -1,6 +1,15 @@
-<?php
-ob_start();
-$new_url = 'https://findcow.herokuapp.com/track.php';
-header('Location: '.$new_url);
-exit();
-?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=/track.php">
+    <title>Редирект</title>
+</head>
+<body>
+    <p>Перенаправление на /track.php...</p>
+    <!-- Альтернатива на JavaScript для случаев, когда мета-тег не сработает -->
+    <script>
+        window.location.href = "/track.php";
+    </script>
+</body>
+</html>
